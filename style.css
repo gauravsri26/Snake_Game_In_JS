@@ -10,6 +10,10 @@
 
     --bg-primary-color: #242424;
 
+    /* Snake Color */
+
+    --bg-fill-color: #c98d8d;
+
     /* Text Colors */
 
     --text-primary-color: #c7c5c5;
@@ -79,9 +83,10 @@ section .infos{
     grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
 }
-
 .block{
-    width: 30px;
-    height: 30px;
     border: 0.25px solid var(--border-primary-color);
+}
+
+.fill{
+    background-color: var(--bg-fill-color);
 }
