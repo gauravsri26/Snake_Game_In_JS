@@ -12,7 +12,11 @@
 
     /* Snake Color */
 
-    --bg-fill-color: #c98d8d;
+    --bg-fill-color: #f4eeee;
+
+    /* Food Color */
+
+    --bg-food-color: #eb68a0;
 
     /* Text Colors */
 
@@ -89,4 +93,8 @@ section .infos{
 
 .fill{
     background-color: var(--bg-fill-color);
+}
+
+.food{
+    background-color: var(--bg-food-color);
 }
